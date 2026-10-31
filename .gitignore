@@ -1,0 +1,23 @@
+# --- Secrets (NEVER commit these) ---
+.env
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Virtual Environment ---
+genai_env/
+venv/
+.venv/
+
+# --- Generated Reports ---
+reports/
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
